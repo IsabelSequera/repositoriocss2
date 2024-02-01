@@ -1,0 +1,58 @@
+body{
+    background-color: blueviolet;
+}
+
+.title{
+    font-size: 2em;
+    color: hotpink;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content ;
+    padding: 1em 1em 2em 1em ;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+
+
+}
+
+.cards:hover{
+    background-color: blue;
+}
+
+#principal{
+    font-size: 70px;
+    color: green;
+}
+
+#titulos{
+    border: 6px solid black;
+    width: 80vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards-container{
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 6px solid green;
+    border-radius: 8%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
